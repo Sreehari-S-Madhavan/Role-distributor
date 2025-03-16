@@ -1,16 +1,16 @@
 let assignedRoles = []; // To keep track of assigned roles
 
 const roles = [
-    { name: 'Mr. Wilkins (Strict)', desc: 'Serious and rule-obsessed interviewer.' },
-    { name: 'Mr. Patel (Eccentric)', desc: 'Asks bizarre, unexpected questions.' },
-    { name: 'Samantha (Buzzword Fanatic)', desc: 'Loves corporate jargon and fancy phrases.' },
-    { name: 'Greg (Know-it-all)', desc: 'Highly technical but awkward in social settings.' },
-    { name: 'Monica (Receptionist/Assistant)', desc: 'Forgetful and chaotic, yet lovable.' },
-    { name: 'Arjun (Overconfident)', desc: 'Too confident, often without reason.' },
-    { name: 'Tina (Nervous)', desc: 'Shy and anxious, prone to panic under pressure.' },
-    { name: 'Jerry (Casual)', desc: 'Too laid-back, often jokes during serious moments.' },
-    { name: 'Ben (Intellectual)', desc: 'Philosophical thinker who overcomplicates everything.' },
-    { name: 'Leon (Clueless)', desc: 'Unaware of what the company does, yet strangely confident.' }
+    { name: 'Mr. Wilkins (Strict)', desc: 'Lead interviewer with a no-nonsense attitude.' },
+    { name: 'Mr. Patel (Eccentric)', desc: 'CEO with unpredictable and bizarre questions.' },
+    { name: 'Samantha (Buzzword Fanatic)', desc: 'HR rep who loves jargon and corporate lingo.' },
+    { name: 'Greg (Know-it-all)', desc: 'Tech specialist who explains too much.' },
+    { name: 'Monica (Methodical & Calm)', desc: 'Focuses on teamwork and leadership skills.' },
+    { name: 'Arjun (Overconfident)', desc: 'Talks big but lacks real depth.' },
+    { name: 'Tina (Nervous)', desc: 'Knows her stuff but panics under pressure.' },
+    { name: 'Jerry (Casual)', desc: 'Too relaxed and often jokes during serious moments.' },
+    { name: 'Ben (Intellectual)', desc: 'Overthinks everything with excessive analysis.' },
+    { name: 'Leah (Chaotic & Forgetful)', desc: 'Receptionist who mixes up names and schedules.' }
 ];
 
 function assignRoles() {
@@ -48,4 +48,4 @@ function resetRoles() {
 function showRoleDetails(roleName, roleDesc) {
     document.getElementById('roleDescription').innerHTML = `<b>${roleName}</b>: ${roleDesc}`;
     document.getElementById('roleCard').style.display = "block";
-}
+        }
